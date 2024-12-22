@@ -1,0 +1,20 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@keyframes text-animation {
+    0% {
+        background-position: 0% 50%;
+    }
+    100% {
+        background-position: 100% 50%;
+    }
+}
+
+.text-anim2 {
+    background-size: 300% 300%;
+}
+
+.animate-text-animation {
+    animation: text-animation 400s linear infinite;
+}
